@@ -1,0 +1,43 @@
+https://www.themoviedb.org/u/testeescolar
+https://www.themoviedb.org/settings/api
+
+
+Documentação
+
+https://developer.themoviedb.org/docs/getting-started
+
+
+LOGIN: testeescolar
+SENHA: mota2011
+
+
+
+
+import { buscarFilme } from "./sistema.js";
+
+const pesquisaFilme = document.getElementById('pesquisaFilme');
+
+pesquisaFilme.addEventListener('click', (e) => {
+    e.preventDefault();
+
+
+    const input = document.getElementById('pesquisaFilme').value;
+    const result = document.getElementById('resultadoFilme');
+
+
+    if (input.trim() === '') {
+        result.textContent = 'Digite um nome de filme para ver o resultado';
+    } else {
+        result.textContent = `Você está procurando o filme: ${input}`;
+    }
+    console.log(input)
+     buscarFilme(input)
+
+
+
+
+
+
+
+
+})

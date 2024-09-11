@@ -1,0 +1,17 @@
+RAFAEL DE ARAUJO FERREIRA
+
+
+ https://www.themoviedb.org/settings/api
+
+https://api.themoviedb.org/3/movie/11?api_key='
+
+
+
+
+No site será possível realizar buscas por filme livreme0nte podendo ou não ter o filme cadastrado na api,
+ mostrando: IMAGEM DO FILME, NOME, TEMPO DE FILME, DATA DE LANÇAMENTO, TAG LINE, OVERVIEW(sinopse), de onde o filme é,
+ gênero do filme,
+
+
+ Possível também buscar por um filme especifico caso esse filme tenha uma sequencia (exemplo Harry Potter)
+ vai poder clicar em uma seta para direta ou esquerda assim mostrando ou voltando os filmes da sequencia
